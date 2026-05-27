@@ -352,8 +352,8 @@ python agent_system/core_test.py
 
 ##  联系方式
 
-- **作者**：Your Name
-- **邮箱**：your.email@example.com
+- **作者**：L6Alpaca
+- **邮箱**：1210119689@qq.com
 - **问题反馈**：请在 GitHub 提交 Issue
 
 ## 🙏 致谢
