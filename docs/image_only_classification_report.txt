@@ -1,0 +1,40 @@
+纯图像分类评估报告
+======================================================================
+
+整体准确率: 0.9000 (90.00%)
+样本总数: 20
+总耗时: 5.26秒
+平均推理时间: 0.263秒/样本
+
+各类别统计:
+  Euroscaptor: 正确=18, 总数=20
+  Mogera: 正确=0, 总数=0
+  Parascaptor: 正确=0, 总数=0
+
+混淆矩阵:
+类别: ['Euroscaptor', 'Mogera', 'Parascaptor']
+[[18  1  1]
+ [ 0  0  0]
+ [ 0  0  0]]
+
+详细结果:
+  [正确] Euroscaptor grandis_57111_F_sichuan_chengdu: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor klossi_MCZ38251_Laos: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor klossi_NMNH261090_M_Thailand_Doi pu Kha_questionmark: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor kuznetsovi_12522: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor longirostris_0905172_Sichuan: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor longirostris_AMNH110505_F_China_Sichuan_Qionglaishan_wenchuan: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor longirostris_FMNH45899_F_China_Sichuan_Goan Shih Dwe: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor longirostris_FMNH45902_M_China_Sichuan_Goan Shih Dwe: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor longirostris_JJSA158-2015-Sichuan-SAF: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor longirostris_JJSA398-2015-Sichuan-SAF: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor longirostris_NMNH258549_F_China_Sichuan: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor malayana_M34740_Tsukuba-2015: 真实=Euroscaptor, 预测=Euroscaptor
+  [错误] Euroscaptor malayana_NMNH256898_M_Thailand_questionmark: 真实=Euroscaptor, 预测=Mogera
+  [正确] Euroscaptor micrura micrura_FMNH35406_M_India_Sikkim_Jeluk: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor micrura micrura_FMNH94126_M_Nepal_Ilam: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor micrura sp_MCZ20977_Inida_Gopaldara: 真实=Euroscaptor, 预测=Euroscaptor
+  [错误] Euroscaptor longirostris_794_F_yunnan_jingdong_modaohe: 真实=Euroscaptor, 预测=Parascaptor
+  [正确] Euroscaptor longirostris_FMNH38995_F_Vietnam_Tonkin_Chapa: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor parvidens_NMNH320532_F_Vietnam_Tuyen: 真实=Euroscaptor, 预测=Euroscaptor
+  [正确] Euroscaptor sp1_HK1412001: 真实=Euroscaptor, 预测=Euroscaptor

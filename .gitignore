@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Model weights (optional - uncomment if weights are large)
+# weights/
+# species_classfier/weights/
+
+# Uploaded files (user data)
+agent_system/uploads/*
+!agent_system/uploads/.gitkeep
+
+# Chat history (user privacy)
+agent_system/chat_history/*
+!agent_system/chat_history/.gitkeep
+
+# Vector database (can be regenerated)
+agent_system/chroma_db/*
+!agent_system/chroma_db/.gitkeep
+
+# MD5 cache
+agent_system/md5.text
+
+# API Keys (IMPORTANT: never commit these)
+*.key
+*.secret
+*api_key*.txt
+*secret_key*.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
