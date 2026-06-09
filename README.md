@@ -350,12 +350,6 @@ python agent_system/core_test.py
 }
 ```
 
-##  联系方式
-
-- **作者**：Your Name
-- **邮箱**：your.email@example.com
-- **问题反馈**：请在 GitHub 提交 Issue
-
 ## 🙏 致谢
 
 感谢以下项目与数据提供者：
