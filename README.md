@@ -344,8 +344,8 @@ python agent_system/core_test.py
 ```bibtex
 @software{mole_classification_agent,
   title = {Mole Classification Agent System},
-  author = {Your Name},
-  year = {2024},
+  author = {LilAlpaca},
+  year = {2026},
   url = {https://github.com/yourusername/mole-classification-agent}
 }
 ```
